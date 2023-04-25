@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -8,6 +9,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
   background-color: #3A3226;
   font-weight: 700;
+
 }
 
 #output {
@@ -15,8 +17,6 @@ html, body {
   text-align: center;
 }
 
-li
-{
+li {
   display: block;
 }
-

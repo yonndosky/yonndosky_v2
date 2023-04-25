@@ -2,11 +2,19 @@
     h3 {
         font-size: 2.7vw;
     }
+
+    body {
+        font-size: 2.4vw;
+    }
 }
 
 @media screen and (max-width: 1439px) {
     h3 {
         font-size: 2.7vw;
+    }
+
+    body {
+        font-size: 2.4vw;
     }
 }
 
@@ -14,11 +22,19 @@
     h3 {
         font-size: 3vw;
     }
+
+    body {
+        font-size: 2.7vw;
+    }
 }
 
 @media screen and (max-width: 767px) {
     h3 {
         font-size: 3vw;
+    }
+
+    body {
+        font-size: 2.7vw;
     }
 }
 
@@ -26,12 +42,18 @@
     h3 {
         font-size: 4vw;
     }
+
+    body {
+        font-size: 3.7vw;
+    }
 }
 
 @media screen and (max-width: 374px) {
     h3 {
         font-size: 5vw;
     }
+
+    body {
+        font-size: 4.5vw;
+    }
 }
-
-

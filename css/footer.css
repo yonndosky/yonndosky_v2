@@ -1,0 +1,23 @@
+footer {
+    border-color: white;
+    border-style: solid none none none;
+    border-width: 5px;
+    background-color: #080808;
+}
+
+footer .text {
+    color: white;
+}
+
+footer .divider {
+    height: 1vh !important;
+}
+
+.developer-info {
+    text-align: center;
+}
+
+.developer-info>a {
+    color: white;
+    text-decoration: blink;
+}

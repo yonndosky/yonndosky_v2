@@ -1,0 +1,10 @@
+.card:nth-child(1) table {
+    padding-inline-start: 0px;
+    border-right: 3px dotted rgba(236, 184, 138, 0.4);
+    border-left: 3px dotted rgba(236, 184, 138, 0.4);
+}
+
+th {
+    word-break: keep-all;
+    border-bottom: 3px dotted rgba(236, 184, 138, 0.4);
+}

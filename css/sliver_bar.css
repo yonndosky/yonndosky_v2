@@ -1,0 +1,42 @@
+.sliver-bar {
+    width: 100%;
+    margin: 0%;
+    padding-inline-start: 0%;
+    position: fixed;
+    z-index: 100;
+    background-image: linear-gradient(to bottom, rgba(28, 28, 28, 1), rgba(28, 28, 28, 0.5));
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sliver-bar li {
+    display: block;
+    height: 100%;
+    flex-grow: 1;
+    font-size: 1.4em;
+    font-weight: 800;
+
+}
+
+.sliver-bar li a {
+    position: relative;
+    border-left: 3px solid rgba(236,184,138,0.2);
+    color: #ECB88A;
+    top: 30%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.sliver-bar li a h3 {
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 3% 0% 0% 0%;
+}
+
+
+.sliver-bar li:hover {
+    background-color: #080808;
+}

@@ -1,0 +1,80 @@
+.divider {
+    height: 1vh;
+}
+
+.divider:nth-child(1) {
+    height: 10vh;
+}
+
+.card .self-picture {
+    aspect-ratio: 1;
+    background-image: url(../pic/selfpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    shape-outside: circle(50%);
+    margin: 17px;
+    border-radius: 50%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.main {
+    margin: 0px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block-start: 0em;
+    padding-inline-start: 0%;
+}
+
+.Tchecked {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.circle-pic {
+    shape-outside: circle(50%);
+    float: right;
+    width: 17vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    h3 {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h3 {
+        font-size: 4vw;
+    }
+}
+
+dl {
+    margin-block-start: 0em;
+    border-right: 3px dotted rgba(236, 184, 138, 0.4);
+    border-left: 3px dotted rgba(236, 184, 138, 0.4);
+}
+
+dt {
+    border-top: 3px dotted rgba(236, 184, 138, 0.4);
+    border-bottom: 3px dotted rgba(236, 184, 138, 0.4);
+}
+
+dt:nth-child(1)
+{
+    border-top: 3px none rgba(236, 184, 138, 0.4);
+}
+
+dd
+{
+    position: relative; left: 8px;
+}
